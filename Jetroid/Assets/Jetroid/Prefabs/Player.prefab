@@ -23,6 +23,9 @@ GameObject:
   - component: {fileID: 95016931102274644}
   - component: {fileID: 50207228155083702}
   - component: {fileID: 58436062027823716}
+  - component: {fileID: 114541120630677208}
+  - component: {fileID: 114291730624102794}
+  - component: {fileID: 114755811956160146}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -55,7 +58,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
+  m_LinearDrag: 0.3
   m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 0}
@@ -71,7 +74,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 1286834875582516}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 193feccc0b1f34d439333dbd513b0c0b, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -96,6 +99,47 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114291730624102794
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1286834875582516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 001f339ab3f600a4d9f3ec5de4a627f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moving: {x: 0, y: 0}
+--- !u!114 &114541120630677208
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1286834875582516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dadc67f0cb8ba8e4fa43559609b42766, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 150
+  maxVelocity: {x: 60, y: 100}
+  jetSpeed: 200
+  standing: 1
+  standingThreshold: 4
+  airSpeedMultiplier: 0.3
+--- !u!114 &114755811956160146
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1286834875582516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 001f339ab3f600a4d9f3ec5de4a627f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moving: {x: 0, y: 0}
 --- !u!212 &212522606668862906
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -131,7 +175,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ade1ae343796bf240bec2ef27f53c5e0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2530f70b2e889234ebb17a375bfb37c5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

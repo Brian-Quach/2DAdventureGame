@@ -316,8 +316,8 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 5.059905, y: 24.666601}
-      - {x: -6.522119, y: 3.3880334}
+    - - {x: 7.1058397, y: 10.036569}
+      - {x: -6.840376, y: 9.179082}
       - {x: -10, y: 10}
       - {x: -10, y: -10}
       - {x: 10, y: -10}
@@ -361,11 +361,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 58436062027823716, guid: 3bd6f6a9914ea1f4a90518d16c43c7b2,
-        type: 2}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 6200000, guid: 193feccc0b1f34d439333dbd513b0c0b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3bd6f6a9914ea1f4a90518d16c43c7b2, type: 2}
   m_IsPrefabAsset: 0
