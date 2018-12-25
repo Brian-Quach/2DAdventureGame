@@ -22,6 +22,11 @@ public class Switch : MonoBehaviour {
 	}
 
     private void OnTriggerEnter2D(Collider2D target) {
+        
+        if(target.tag == "Deadly") {
+            return;
+        }
+
         down = true;
         animator.SetInteger("AnimState", 1);
 
