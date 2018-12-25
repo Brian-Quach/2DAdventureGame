@@ -6,15 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Jetroid/Scenes/SplashScene.unity
     guid: fb57989524ac84c42ac0d82094de60ca
   - enabled: 0
-    path: Assets/__DELETED_GUID_Trash/396eaa08f905fd94598b2d1eee003b01
-    guid: 396eaa08f905fd94598b2d1eee003b01
-  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: Assets/Jetroid/Scenes/GameStaging.unity
     guid: 87b0f65a69212e74a94de391a348b122
+  - enabled: 1
+    path: Assets/Jetroid/Scenes/LevelDesignStaging.unity
+    guid: 9cdea32427370044fb253d2daa8f0e01
   m_configObjects: {}

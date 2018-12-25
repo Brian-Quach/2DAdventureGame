@@ -490,7 +490,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b5edc978ffe69e4ab645955c7a1d91c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: Jetroid/Scenes/GameStaging
+  scene: Jetroid/Scenes/LevelDesignStaging
 --- !u!114 &1549840689
 MonoBehaviour:
   m_ObjectHideFlags: 0
