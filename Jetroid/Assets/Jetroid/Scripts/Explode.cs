@@ -28,7 +28,7 @@ public class Explode : MonoBehaviour {
     }
 
 
-    void OnExplode() {
+    public void OnExplode() {
 
         var t = transform;
 
